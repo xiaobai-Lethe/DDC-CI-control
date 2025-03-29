@@ -12,15 +12,33 @@
 - 支持快捷键控制
 - 自动启动功能
 - 多显示器支持
-- 用户友好的界面
+
+
+## 星标历史
+
+[![Star History Chart](https://api.star-history.com/svg?repos=xiaobai-Lethe/DDC-CI-control&type=Date)](https://star-history.com/#xiaobai-Lethe/DDC-CI-control&Date)
 
 ## 架构
 
-![DDC/CI 控制器架构](https://mermaid.ink/img/pako:eNplkU1LxDAQhv_KkJMFD1sPXkQQ8SB4EaHHNJlui20SMpN1Ken_NtssLLozl5d55pMZZ2OsQbZg3_z-CFJ0PXrJ1qzK7GGD8B63dUdGDKLCQHvOplTM0-_xisR9reCAPF08wB6VBCvaGRRYpFbxHnuHvfOoOiOEsHAA5q31pGh0uP3ZQeMQXrNIVnCrHnGnQNZxC23JhGQ_aNlTsVssbUZg95YIyjxpB60mSbEA-2C07MCKFDCC5F_gPRXqoQ6_XJfDnZ-cUhV6OmW_ywx1nolT5-sqsZRr8NKSunCOnJb95zb-zqnUKd-SBrEtUlP5aqrYk6mlGX5JXb4Av0mKOg?type=png)
+```mermaid
+graph TD
+    A[用户界面] --> B[DDC/CI 管理器]
+    B --> C[显示器 1]
+    B --> D[显示器 2]
+    B --> E[显示器 n...]
+    F[快捷键管理器] --> B
+    G[自动启动管理器] --> A
+```
 
 ## 亮度响应曲线
 
-![亮度响应曲线](https://mermaid.ink/img/pako:eNpNjrEKwjAQQH8l3JRBXN0KIoIOujgEt5CecWlsKkmu1CL-u7GtdHvw7t6742KdJyg4fKTzUZDZdOR3UElJ6g5v7NbVTRgMj2yYlThxM8--pGviPWs-HegpGPVkkiEapPZ9_8Nd-2t-uasw47iEcgNt41hFu0z5JcCWBUH9Q9ggpCbCUKRiqOLrVrRRKgMvzRIi3Bx5QsgF2uB7TJDahfB_ANsfTsI-mQ?type=png)
+```mermaid
+graph LR
+    A[输入] --> B[处理]
+    B --> C[输出]
+    B --> D[调整曲线]
+    D --> B
+```
 
 ## 开发信息
 

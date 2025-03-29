@@ -12,15 +12,33 @@ A desktop application to control monitor brightness and settings via the DDC/CI 
 - Supports shortcut key control
 - Auto-start capability 
 - Multi-monitor support
-- User-friendly interface
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=xiaobai-Lethe/DDC-CI-control&type=Date)](https://star-history.com/#xiaobai-Lethe/DDC-CI-control&Date)
 
 ## Architecture
 
-![DDC/CI Controller Architecture](https://mermaid.ink/img/pako:eNplkU1LxDAQhv_KkJMFD1sPXkQQ8SB4EaHHNJlui20SMpN1Ken_NtssLLozl5d55pMZZ2OsQbZg3_z-CFJ0PXrJ1qzK7GGD8B63dUdGDKLCQHvOplTM0-_xisR9reCAPF08wB6VBCvaGRRYpFbxHnuHvfOoOiOEsHAA5q31pGh0uP3ZQeMQXrNIVnCrHnGnQNZxC23JhGQ_aNlTsVssbUZg95YIyjxpB60mSbEA-2C07MCKFDCC5F_gPRXqoQ6_XJfDnZ-cUhV6OmW_ywx1nolT5-sqsZRr8NKSunCOnJb95zb-zqnUKd-SBrEtUlP5aqrYk6mlGX5JXb4Av0mKOg?type=png)
+```mermaid
+graph TD
+    A[User Interface] --> B[DDC/CI Manager]
+    B --> C[Monitor 1]
+    B --> D[Monitor 2]
+    B --> E[Monitor n...]
+    F[Shortcut Manager] --> B
+    G[Auto-start Manager] --> A
+```
 
 ## Brightness Response Curve
 
-![Brightness Response Curve](https://mermaid.ink/img/pako:eNpNjrEKwjAQQH8l3JRBXN0KIoIOujgEt5CecWlsKkmu1CL-u7GtdHvw7t6742KdJyg4fKTzUZDZdOR3UElJ6g5v7NbVTRgMj2yYlThxM8--pGviPWs-HegpGPVkkiEapPZ9_8Nd-2t-uasw47iEcgNt41hFu0z5JcCWBUH9Q9ggpCbCUKRiqOLrVrRRKgMvzRIi3Bx5QsgF2uB7TJDahfB_ANsfTsI-mQ?type=png)
+```mermaid
+graph LR
+    A[Input] --> B[Processing]
+    B --> C[Output]
+    B --> D[Adjustment Curve]
+    D --> B
+```
 
 ## Development
 
