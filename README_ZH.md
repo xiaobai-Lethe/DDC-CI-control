@@ -3,8 +3,11 @@
 [![GitHub stars](https://img.shields.io/github/stars/xiaobai-Lethe/DDC-CI-control?style=social)](https://github.com/xiaobai-Lethe/DDC-CI-control/stargazers)
 [![GitHub license](https://img.shields.io/github/license/xiaobai-Lethe/DDC-CI-control?color=brightgreen)](https://github.com/xiaobai-Lethe/DDC-CI-control/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/xiaobai-Lethe/DDC-CI-control?color=blue)](https://github.com/xiaobai-Lethe/DDC-CI-control/issues)
+[![下载](https://img.shields.io/badge/下载-最新版本-orange)](https://github.com/xiaobai-Lethe/DDC-CI-control/releases/tag/main)
 
 一款通过DDC/CI协议控制显示器亮度和设置的桌面应用程序。
+
+中文 | [English](README.md)
 
 ## 功能特点
 
@@ -12,6 +15,7 @@
 - 支持快捷键控制
 - 自动启动功能
 - 多显示器支持
+- 用户友好的界面
 
 
 ## 星标历史
@@ -49,7 +53,9 @@ graph LR
 
 ## 开始使用
 
-[这里将提供安装和使用说明]
+您可以从[发布页面](https://github.com/xiaobai-Lethe/DDC-CI-control/releases/tag/main)下载最新版本。
+
+**注意**：如果您启用了HDR模式，部分亮度控制功能可能不受支持。
 
 ## 许可证
 
