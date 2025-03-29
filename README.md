@@ -6,12 +6,15 @@
 
 A desktop application to control monitor brightness and settings via the DDC/CI protocol. 
 
+[中文文档](README_ZH.md) | English
+
 ## Features
 
 - Controls screen brightness via DDC/CI protocol
 - Supports shortcut key control
 - Auto-start capability 
 - Multi-monitor support
+- User-friendly interface
 
 
 ## Star History
