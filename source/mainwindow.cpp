@@ -42,7 +42,7 @@ MainWindow::MainWindow(QWidget *parent)
     
     /* 获取DDC控制器单例 */
     ddcController = DdcController::getInstance();
-    ddcController->setOptimizeMode(true);  // 启用优化模式以提高响应速度
+    ddcController->setOptimizeMode(true);
     
     /* 状态初始化 */
     currentMonitorIndex = 0;
@@ -62,15 +62,15 @@ MainWindow::MainWindow(QWidget *parent)
     increaseHotkey = new WinHotkey(this);
     decreaseHotkey = new WinHotkey(this);
     
-    /* 连接热键信号 */
+
     connect(increaseHotkey, &WinHotkey::activated, this, &MainWindow::increaseBrightness);
     connect(decreaseHotkey, &WinHotkey::activated, this, &MainWindow::decreaseBrightness);
     
-    /* 连接亮度控制信号槽 */
+
     connect(ui->sliderBrightness, &QSlider::valueChanged, this, &MainWindow::on_sliderBrightness_valueChanged);
     connect(ui->sliderBrightness, &QSlider::sliderReleased, this, &MainWindow::on_sliderBrightness_sliderReleased);
     
-    /* 连接设置按钮信号槽 */
+
 
     
     /* 使用延时确保界面完全加载后再检测DDC/CI支持 */
