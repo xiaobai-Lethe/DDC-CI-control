@@ -20,7 +20,7 @@ A desktop application to control monitor brightness and settings via the DDC/CI 
 
 ## Star History
 
-[![Star History Chart](https://star-history.com/#xiaobai-Lethe/DDC-CI-control&Date)](https://star-history.com/#xiaobai-Lethe/DDC-CI-control&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=xiaobai-Lethe/DDC-CI-control&type=date&legend=top-left)](https://www.star-history.com/#xiaobai-Lethe/DDC-CI-control&type=date&legend=top-left)
 
 ## Architecture
 
