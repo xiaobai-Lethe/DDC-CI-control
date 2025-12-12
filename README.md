@@ -5,51 +5,19 @@
 [![GitHub issues](https://img.shields.io/github/issues/xiaobai-Lethe/DDC-CI-control?color=blue)](https://github.com/xiaobai-Lethe/DDC-CI-control/issues)
 [![Download](https://img.shields.io/badge/Download-Latest%20Release-orange)](https://github.com/xiaobai-Lethe/DDC-CI-control/releases/tag/main)
 
-A desktop application to control monitor brightness and settings via the DDC/CI protocol. 
-
+ddc
 [中文文档](README_ZH.md) | English
 
-## Features
 
-- Controls screen brightness via DDC/CI protocol
-- Supports shortcut key control
-- Auto-start capability 
-- Multi-monitor support
-- User-friendly interface
 
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=xiaobai-Lethe/DDC-CI-control&type=date&legend=top-left)](https://www.star-history.com/#xiaobai-Lethe/DDC-CI-control&type=date&legend=top-left)
 
-## Architecture
 
-```mermaid
-graph TD
-    A[User Interface] --> B[DDC/CI Manager]
-    B --> C[Monitor 1]
-    B --> D[Monitor 2]
-    B --> E[Monitor n...]
-    F[Shortcut Manager] --> B
-    G[Auto-start Manager] --> A
-```
 
-## Brightness Response Curve
 
-```mermaid
-graph LR
-    A[Input] --> B[Processing]
-    B --> C[Output]
-    B --> D[Adjustment Curve]
-    D --> B
-```
-
-## Development
-
-This application is developed using:
-- C++ for core functionality
-- Qt framework for the user interface
-- Modern C++ standards
 
 ## Getting Started
 
